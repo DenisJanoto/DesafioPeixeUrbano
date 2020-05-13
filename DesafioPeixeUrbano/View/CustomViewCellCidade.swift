@@ -9,7 +9,11 @@
 import UIKit
 
 class CustomViewCellCidade: UITableViewCell {
-
+    @IBOutlet weak var ImCidade: UIImageView!
+    @IBOutlet weak var lbNomeLocal: UILabel!
+    @IBOutlet weak var lbDescricao: UILabel!
+    @IBOutlet weak var lbValor: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
