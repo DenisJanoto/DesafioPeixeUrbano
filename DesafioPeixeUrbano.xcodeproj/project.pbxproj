@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BA7EE6CE6EA3B0A8FA61675 /* Pods_DesafioPeixeUrbano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22BC7198DB75A565369D0CA /* Pods_DesafioPeixeUrbano.framework */; };
+		9230D09A246C645300C0DFC5 /* ViewControllerViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D099246C645300C0DFC5 /* ViewControllerViagens.swift */; };
+		9230D09C246C647600C0DFC5 /* ViewControllerProdutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D09B246C647600C0DFC5 /* ViewControllerProdutos.swift */; };
+		9230D0A2246C655600C0DFC5 /* ViewControllerCidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D0A1246C655600C0DFC5 /* ViewControllerCidade.swift */; };
+		9230D0A4246C699200C0DFC5 /* CustomViewCellCidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D0A3246C699200C0DFC5 /* CustomViewCellCidade.swift */; };
+		9230D0A6246C69A800C0DFC5 /* CustomViewCellViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D0A5246C69A800C0DFC5 /* CustomViewCellViagens.swift */; };
+		9230D0A8246C69BC00C0DFC5 /* CustomViewCellProdutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D0A7246C69BC00C0DFC5 /* CustomViewCellProdutos.swift */; };
 		92688096246C5C420008B4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92688095246C5C420008B4D2 /* AppDelegate.swift */; };
 		92688098246C5C420008B4D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92688097246C5C420008B4D2 /* SceneDelegate.swift */; };
-		9268809A246C5C420008B4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92688099246C5C420008B4D2 /* ViewController.swift */; };
 		9268809D246C5C420008B4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268809B246C5C420008B4D2 /* Main.storyboard */; };
 		926880A0246C5C420008B4D2 /* DesafioPeixeUrbano.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9268809E246C5C420008B4D2 /* DesafioPeixeUrbano.xcdatamodeld */; };
 		926880A2246C5C440008B4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926880A1246C5C440008B4D2 /* Assets.xcassets */; };
@@ -17,15 +23,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2435823B3D84A35F19A4697D /* Pods-DesafioPeixeUrbano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioPeixeUrbano.debug.xcconfig"; path = "Target Support Files/Pods-DesafioPeixeUrbano/Pods-DesafioPeixeUrbano.debug.xcconfig"; sourceTree = "<group>"; };
+		9230D099246C645300C0DFC5 /* ViewControllerViagens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViagens.swift; sourceTree = "<group>"; };
+		9230D09B246C647600C0DFC5 /* ViewControllerProdutos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProdutos.swift; sourceTree = "<group>"; };
+		9230D0A1246C655600C0DFC5 /* ViewControllerCidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCidade.swift; sourceTree = "<group>"; };
+		9230D0A3246C699200C0DFC5 /* CustomViewCellCidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCellCidade.swift; sourceTree = "<group>"; };
+		9230D0A5246C69A800C0DFC5 /* CustomViewCellViagens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCellViagens.swift; sourceTree = "<group>"; };
+		9230D0A7246C69BC00C0DFC5 /* CustomViewCellProdutos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCellProdutos.swift; sourceTree = "<group>"; };
 		92688092246C5C420008B4D2 /* DesafioPeixeUrbano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioPeixeUrbano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92688095246C5C420008B4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92688097246C5C420008B4D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92688099246C5C420008B4D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9268809C246C5C420008B4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9268809F246C5C420008B4D2 /* DesafioPeixeUrbano.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioPeixeUrbano.xcdatamodel; sourceTree = "<group>"; };
 		926880A1246C5C440008B4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926880A4246C5C440008B4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		926880A6246C5C440008B4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7976761F3C6AEEF92E2D86 /* Pods-DesafioPeixeUrbano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioPeixeUrbano.release.xcconfig"; path = "Target Support Files/Pods-DesafioPeixeUrbano/Pods-DesafioPeixeUrbano.release.xcconfig"; sourceTree = "<group>"; };
+		F22BC7198DB75A565369D0CA /* Pods_DesafioPeixeUrbano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioPeixeUrbano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA7EE6CE6EA3B0A8FA61675 /* Pods_DesafioPeixeUrbano.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02B6F73B00CD937BD9EB6E45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2435823B3D84A35F19A4697D /* Pods-DesafioPeixeUrbano.debug.xcconfig */,
+				9C7976761F3C6AEEF92E2D86 /* Pods-DesafioPeixeUrbano.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		760F16023CC54A0EEFA303E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22BC7198DB75A565369D0CA /* Pods_DesafioPeixeUrbano.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9230D09D246C648400C0DFC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9230D09F246C64A400C0DFC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9230D0A1246C655600C0DFC5 /* ViewControllerCidade.swift */,
+				9230D099246C645300C0DFC5 /* ViewControllerViagens.swift */,
+				9230D09B246C647600C0DFC5 /* ViewControllerProdutos.swift */,
+				9230D0A3246C699200C0DFC5 /* CustomViewCellCidade.swift */,
+				9230D0A5246C69A800C0DFC5 /* CustomViewCellViagens.swift */,
+				9230D0A7246C69BC00C0DFC5 /* CustomViewCellProdutos.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9230D0A0246C64AF00C0DFC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		92688089246C5C420008B4D2 = {
 			isa = PBXGroup;
 			children = (
 				92688094246C5C420008B4D2 /* DesafioPeixeUrbano */,
 				92688093246C5C420008B4D2 /* Products */,
+				02B6F73B00CD937BD9EB6E45 /* Pods */,
+				760F16023CC54A0EEFA303E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +119,11 @@
 		92688094246C5C420008B4D2 /* DesafioPeixeUrbano */ = {
 			isa = PBXGroup;
 			children = (
+				9230D09D246C648400C0DFC5 /* Model */,
+				9230D09F246C64A400C0DFC5 /* View */,
+				9230D0A0246C64AF00C0DFC5 /* Controller */,
 				92688095246C5C420008B4D2 /* AppDelegate.swift */,
 				92688097246C5C420008B4D2 /* SceneDelegate.swift */,
-				92688099246C5C420008B4D2 /* ViewController.swift */,
 				9268809B246C5C420008B4D2 /* Main.storyboard */,
 				926880A1246C5C440008B4D2 /* Assets.xcassets */,
 				926880A3246C5C440008B4D2 /* LaunchScreen.storyboard */,
@@ -77,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 926880A9246C5C440008B4D2 /* Build configuration list for PBXNativeTarget "DesafioPeixeUrbano" */;
 			buildPhases = (
+				18317F9FF19372F2882E0D26 /* [CP] Check Pods Manifest.lock */,
 				9268808E246C5C420008B4D2 /* Sources */,
 				9268808F246C5C420008B4D2 /* Frameworks */,
 				92688090246C5C420008B4D2 /* Resources */,
+				0BA043CE2B622AF303AAFE9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,13 +201,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BA043CE2B622AF303AAFE9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioPeixeUrbano/Pods-DesafioPeixeUrbano-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioPeixeUrbano/Pods-DesafioPeixeUrbano-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioPeixeUrbano/Pods-DesafioPeixeUrbano-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18317F9FF19372F2882E0D26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioPeixeUrbano-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9268808E246C5C420008B4D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				926880A0246C5C420008B4D2 /* DesafioPeixeUrbano.xcdatamodeld in Sources */,
-				9268809A246C5C420008B4D2 /* ViewController.swift in Sources */,
+				9230D0A6246C69A800C0DFC5 /* CustomViewCellViagens.swift in Sources */,
+				9230D0A8246C69BC00C0DFC5 /* CustomViewCellProdutos.swift in Sources */,
+				9230D0A4246C699200C0DFC5 /* CustomViewCellCidade.swift in Sources */,
+				9230D09A246C645300C0DFC5 /* ViewControllerViagens.swift in Sources */,
+				9230D0A2246C655600C0DFC5 /* ViewControllerCidade.swift in Sources */,
+				9230D09C246C647600C0DFC5 /* ViewControllerProdutos.swift in Sources */,
 				92688096246C5C420008B4D2 /* AppDelegate.swift in Sources */,
 				92688098246C5C420008B4D2 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +398,7 @@
 		};
 		926880AA246C5C440008B4D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2435823B3D84A35F19A4697D /* Pods-DesafioPeixeUrbano.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,12 +410,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.DesafioPeixeUrbano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		926880AB246C5C440008B4D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7976761F3C6AEEF92E2D86 /* Pods-DesafioPeixeUrbano.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.DesafioPeixeUrbano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
