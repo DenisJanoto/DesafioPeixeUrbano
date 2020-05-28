@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		6BA7EE6CE6EA3B0A8FA61675 /* Pods_DesafioPeixeUrbano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22BC7198DB75A565369D0CA /* Pods_DesafioPeixeUrbano.framework */; };
+		920EF319246CA96E0051BAC8 /* receivedJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920EF318246CA96E0051BAC8 /* receivedJson.swift */; };
+		920EF31B246CA9BA0051BAC8 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920EF31A246CA9BA0051BAC8 /* ApiController.swift */; };
 		9230D09A246C645300C0DFC5 /* ViewControllerViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D099246C645300C0DFC5 /* ViewControllerViagens.swift */; };
 		9230D09C246C647600C0DFC5 /* ViewControllerProdutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D09B246C647600C0DFC5 /* ViewControllerProdutos.swift */; };
 		9230D0A2246C655600C0DFC5 /* ViewControllerCidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D0A1246C655600C0DFC5 /* ViewControllerCidade.swift */; };
 		9230D0A4246C699200C0DFC5 /* CustomViewCellCidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D0A3246C699200C0DFC5 /* CustomViewCellCidade.swift */; };
 		9230D0A6246C69A800C0DFC5 /* CustomViewCellViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D0A5246C69A800C0DFC5 /* CustomViewCellViagens.swift */; };
 		9230D0A8246C69BC00C0DFC5 /* CustomViewCellProdutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D0A7246C69BC00C0DFC5 /* CustomViewCellProdutos.swift */; };
+		925DF1202471EC6D000DA975 /* FavoritosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF11F2471EC6D000DA975 /* FavoritosTableViewController.swift */; };
+		925DF1222471ED00000DA975 /* CustomCellFavoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF1212471ED00000DA975 /* CustomCellFavoritos.swift */; };
+		925DF1242471F3BF000DA975 /* FavoritosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF1232471F3BF000DA975 /* FavoritosController.swift */; };
 		92688096246C5C420008B4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92688095246C5C420008B4D2 /* AppDelegate.swift */; };
 		92688098246C5C420008B4D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92688097246C5C420008B4D2 /* SceneDelegate.swift */; };
 		9268809D246C5C420008B4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268809B246C5C420008B4D2 /* Main.storyboard */; };
@@ -24,12 +29,17 @@
 
 /* Begin PBXFileReference section */
 		2435823B3D84A35F19A4697D /* Pods-DesafioPeixeUrbano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioPeixeUrbano.debug.xcconfig"; path = "Target Support Files/Pods-DesafioPeixeUrbano/Pods-DesafioPeixeUrbano.debug.xcconfig"; sourceTree = "<group>"; };
+		920EF318246CA96E0051BAC8 /* receivedJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receivedJson.swift; sourceTree = "<group>"; };
+		920EF31A246CA9BA0051BAC8 /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
 		9230D099246C645300C0DFC5 /* ViewControllerViagens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViagens.swift; sourceTree = "<group>"; };
 		9230D09B246C647600C0DFC5 /* ViewControllerProdutos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProdutos.swift; sourceTree = "<group>"; };
 		9230D0A1246C655600C0DFC5 /* ViewControllerCidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCidade.swift; sourceTree = "<group>"; };
 		9230D0A3246C699200C0DFC5 /* CustomViewCellCidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCellCidade.swift; sourceTree = "<group>"; };
 		9230D0A5246C69A800C0DFC5 /* CustomViewCellViagens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCellViagens.swift; sourceTree = "<group>"; };
 		9230D0A7246C69BC00C0DFC5 /* CustomViewCellProdutos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCellProdutos.swift; sourceTree = "<group>"; };
+		925DF11F2471EC6D000DA975 /* FavoritosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosTableViewController.swift; sourceTree = "<group>"; };
+		925DF1212471ED00000DA975 /* CustomCellFavoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellFavoritos.swift; sourceTree = "<group>"; };
+		925DF1232471F3BF000DA975 /* FavoritosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosController.swift; sourceTree = "<group>"; };
 		92688092246C5C420008B4D2 /* DesafioPeixeUrbano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioPeixeUrbano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92688095246C5C420008B4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92688097246C5C420008B4D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +84,7 @@
 		9230D09D246C648400C0DFC5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				920EF318246CA96E0051BAC8 /* receivedJson.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +98,8 @@
 				9230D0A3246C699200C0DFC5 /* CustomViewCellCidade.swift */,
 				9230D0A5246C69A800C0DFC5 /* CustomViewCellViagens.swift */,
 				9230D0A7246C69BC00C0DFC5 /* CustomViewCellProdutos.swift */,
+				925DF11F2471EC6D000DA975 /* FavoritosTableViewController.swift */,
+				925DF1212471ED00000DA975 /* CustomCellFavoritos.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -94,6 +107,8 @@
 		9230D0A0246C64AF00C0DFC5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				925DF1232471F3BF000DA975 /* FavoritosController.swift */,
+				920EF31A246CA9BA0051BAC8 /* ApiController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,11 +266,16 @@
 				926880A0246C5C420008B4D2 /* DesafioPeixeUrbano.xcdatamodeld in Sources */,
 				9230D0A6246C69A800C0DFC5 /* CustomViewCellViagens.swift in Sources */,
 				9230D0A8246C69BC00C0DFC5 /* CustomViewCellProdutos.swift in Sources */,
+				920EF31B246CA9BA0051BAC8 /* ApiController.swift in Sources */,
 				9230D0A4246C699200C0DFC5 /* CustomViewCellCidade.swift in Sources */,
+				925DF1222471ED00000DA975 /* CustomCellFavoritos.swift in Sources */,
+				925DF1202471EC6D000DA975 /* FavoritosTableViewController.swift in Sources */,
+				925DF1242471F3BF000DA975 /* FavoritosController.swift in Sources */,
 				9230D09A246C645300C0DFC5 /* ViewControllerViagens.swift in Sources */,
 				9230D0A2246C655600C0DFC5 /* ViewControllerCidade.swift in Sources */,
 				9230D09C246C647600C0DFC5 /* ViewControllerProdutos.swift in Sources */,
 				92688096246C5C420008B4D2 /* AppDelegate.swift in Sources */,
+				920EF319246CA96E0051BAC8 /* receivedJson.swift in Sources */,
 				92688098246C5C420008B4D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
